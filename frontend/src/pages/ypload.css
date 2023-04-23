@@ -1,0 +1,11 @@
+input {
+  background-color: rgb(129, 196, 196);
+  width: 100%;
+  margin: 4px;
+  border-radius: 10%;
+  padding: 1px;
+  text-align: center;
+}
+input :focus {
+  width: 100%;
+}

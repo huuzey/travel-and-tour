@@ -1,0 +1,9 @@
+.common {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../assets/images/tour.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
