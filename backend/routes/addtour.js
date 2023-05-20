@@ -13,7 +13,7 @@ const { verifyadmin, verifyuser } = require("../utils/verifytoken");
 
 const router = express.Router();
 
-router.post("/addtour", createTour);
+router.post("/addtour", verifyadmin, createTour);
 router.get("/gettour", getTour);
 router.delete("/:id", verifyuser, deleteTour);
 router.put("/tour/:id", updateTour);
